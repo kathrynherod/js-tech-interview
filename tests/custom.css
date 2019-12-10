@@ -1,0 +1,71 @@
+#qunit-tests li a {
+    color: white !important;
+}
+.fail {
+    background-color: #d3d3d3 !important;
+    font-size: 1rem !important;
+}
+
+.fail,
+.pass {
+    margin-bottom: 0.5rem;
+}
+
+.test-name {
+    font-size: 1rem;
+}
+
+.test-message {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.qunit-assert-list {
+    padding: 16px !important;
+}
+
+.qunit-assert-list .fail {
+    background-color: white !important;
+}
+
+#qunit-tests li li.fail,
+#qunit-tests b.failed {
+    color: red !important;
+}
+
+#qunit-tests li li.fail {
+    border-left: 10px solid red !important;
+}
+
+#qunit-tests li li.pass,
+#qunit-tests b.passed {
+    color: #008000 !important;
+}
+
+#qunit-tests li li.pass {
+    background-color: white !important;
+    border-left: 10px solid #008000 !important;
+}
+
+#qunit-tests th {
+    text-align: left !important;
+}
+
+.test-source {
+    font-size: 0.75rem;
+}
+
+.test-source th {
+    font-weight: normal;
+}
+
+#qunit-tests .pass {
+    background-color: #008000 !important;
+}
+
+#qunit-tests .pass .test-name {
+    color: white !important;
+}
+
+.qunit-source {
+    font-size: 0.75rem;
+}

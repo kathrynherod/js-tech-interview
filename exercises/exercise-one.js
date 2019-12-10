@@ -1,5 +1,5 @@
 /**
-    Write a function that receives an array and returns a copy of it.
+    Write a function that receives an array and returns a clone/copy of it.
 
     @method copyArray
     @param {Array} array Array to be copied
@@ -11,8 +11,9 @@ function copyArray(array) {
 }
 
 /**
-    Write a function that receives an array and returns a modified copy (each
-    element should be multiplied by two) without modifying the original array.
+    Write a function that receives an array and returns a modified copy
+    (each element should be multiplied by two)
+    without modifying the original array.
     Feel free to use the function you wrote in the previous exercise to handle
     the copying of the passed array.
 
@@ -20,11 +21,32 @@ function copyArray(array) {
         array = [1, 2, 3, 4, 5]
         returnedArray = [2, 4, 6, 8, 10]
 
-    @method copyAndDoubleArray
+    @method copyArrayAndDoubleValues
     @param {Array} array Array to be copied
     @returns {Array} Copy of `array` with each item multiplied by two
  */
-function copyAndDoubleArray(array) {
+function copyArrayAndDoubleValues(array) {
+    // Write code here
+
+}
+
+/**
+    Write a function that receives an object and returns a modified copy.
+
+    The object is a user whose `name` and `favoriteColor` needs to be updated.
+    Return an updated object with:
+    `name` property equal to "John"
+    `favoriteColor` property equal to "blue"
+
+    Example:
+        obj = { id: 1, name: "Jim", favoriteColor: "red" }
+        returnedObj = { id: 1, name: "Zach", favoriteColor: "blue" }
+
+    @method updateObjectValues
+    @param {Object} obj Object to be modified
+    @returns {Object} `obj` with `name` and `favoriteColor` properties updated
+ */
+function updateObjectValues(obj) {
     // Write code here
 
 }
@@ -43,74 +65,6 @@ function copyAndDoubleArray(array) {
     @returns {Object} Copy of `obj` with each property value multiplied by two
  */
 function copyAndDoubleObject(obj) {
-    // Write code here
-
-}
-
-/**
-    Write a function that returns the second largest number in an array of
-    numbers.
-
-    Example:
-        numbers = [2, 6, 5, 5, 6, 2, 3, 1]
-        returnedNumber = 5
-
-    @param {Array} numbers Array of numbers to evaluate
-    @returns {Number} The second largest number in the array `numbers`
- */
-function getSecondLargest(numbers) {
-    // Write code here
-
-}
-
-/**
-    Write a function that returns the approximate area of a circle based on its
-    passed-in radius (to two decimal points).
-
-    Example:
-        radius = 12
-        returnedArea = 452.39
-
-    @param {Number} radius
-    @returns {Number} Approximate area of a circle
- */
-function getAreaOfCircle(radius) {
-    // Write code here
-
-}
-
-/**
-    In mathematics, the Fibonacci numbers, commonly denoted Fn, form a sequence
-    called the Fibonacci sequence, such that each number is the sum of the two
-    preceding ones, starting from 0 and 1.
-
-    Write a function that accepts the `count` of fibonacci numbers to be returned,
-    and returns an array with that many fibonacci numbers in sequence.
-
-    @method fibonacci
-    @param {Number} count
-    @returns {Array} Array of `n` numbers of the fibonacci sequence
- */
-function fibonacci(count) {
-    // Write code here
-
-}
-
-/**
-    In mathematics, the factorial of a positive integer _n_, denoted by _n!_, is
-    the product of all positive integers less than or equal to _n_.
-
-    Write a function that returns the factorial of any number (_n_) passed to
-    it. (You can assume inputs >= 0.)
-
-        Example:
-        5! = 5 * 4 * 3 * 2 * 1 = 120
-
-    @method factorial
-    @param {Number} n The number to return factorial value for
-    @returns {Number}
- */
-function factorial(n) {
     // Write code here
 
 }
