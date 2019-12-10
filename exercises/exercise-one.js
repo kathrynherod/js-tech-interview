@@ -35,7 +35,7 @@ function copyArrayAndDoubleValues(array) {
 
     The object is a user whose `name` and `favoriteColor` needs to be updated.
     Return an updated object with:
-    `name` property equal to "John"
+    `name` property equal to "Zach"
     `favoriteColor` property equal to "blue"
 
     Example:
