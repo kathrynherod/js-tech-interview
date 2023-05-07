@@ -9,7 +9,7 @@
     "author": "Kevin Boucher <kevin@kevinboucher.com>",
     "license": "ISC",
     "dependencies": {
-        "browser-sync": "^2.26.7",
+        "browser-sync": "^2.29.1",
         "qunit": "^2.9.3"
     }
 }
